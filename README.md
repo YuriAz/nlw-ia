@@ -19,6 +19,9 @@ cd ..
 cd api
 pnpm install
 
+## Seed the db
+pnpm prisma db seed
+
 ## Run server
 pnpm run dev
 
